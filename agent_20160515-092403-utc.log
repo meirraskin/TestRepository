@@ -1,0 +1,19 @@
+﻿09:24:03.951397 Sending trace output to log files: c:\agent_new\_diag
+09:24:03.967045 VsoAgent.exe was run with the following command line:
+"c:\agent_new\Agent\VsoAgent.exe"  /configure 
+09:24:04.013922 SettingsFileHelper.Load - settings[AutoUpdate]=True
+09:24:04.013922 SettingsFileHelper.Load - settings[RootFolder]=C:\Users\tfsbuild\Desktop\agent (1)
+09:24:04.013922 SettingsFileHelper.Load - settings[WorkFolder]=C:\Users\tfsbuild\Desktop\agent (1)\_work
+09:24:04.013922 SettingsFileHelper.Load - settings[ServerUrl]=
+09:24:04.013922 SettingsFileHelper.Load - settings[AgentName]=Agent-INF-TFS-BUILD5
+09:24:04.013922 SettingsFileHelper.Load - settings[PoolId]=
+09:24:04.013922 SettingsFileHelper.Load - settings[PoolName]=default
+09:24:04.013922 SettingsFileHelper.Load - settings[AgentId]=
+09:24:04.013922 SettingsFileHelper.Load - settings[RunAsWindowsService]=False
+09:26:35.240636 ---------------------------------------------------------------------------
+09:26:35.240636 System.MissingMethodException: Method not found: 'System.Threading.Tasks.Task`1<!!0> Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(System.Net.Http.HttpMethod, System.Guid, System.Object, Microsoft.VisualStudio.Services.WebApi.ApiResourceVersion, System.Net.Http.HttpContent, System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>, System.Object, System.Threading.CancellationToken)'.
+09:26:35.240636    at VsoAgent.AgentManager.ConfigureAgent(IResourceManager resourceManager, Dictionary`2 settings, CommandLine commandLine, String logonAccount, String logonPassword, Boolean force)
+09:26:35.240636    at VsoAgent.Program.Main(String[] args)
+09:26:35.240636    at VsoAgent.AgentManager.ConfigureAgent(IResourceManager resourceManager, Dictionary`2 settings, CommandLine commandLine, String logonAccount, String logonPassword, Boolean force)
+09:26:35.240636    at VsoAgent.Program.Main(String[] args)
+09:26:35.240636 ---------------------------------------------------------------------------
